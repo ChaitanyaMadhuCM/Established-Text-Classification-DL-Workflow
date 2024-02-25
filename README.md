@@ -1,5 +1,5 @@
 # Text-Classification-DL-Workflow
-**A well-structured and industry-standard approach to: Multi-Class Text Classification using DL and NLP (end-to-end).**
+**Industry-Standard approach to: Multi-Class Text Classification using DL and NLP (end-to-end).**
 
 
 ## Table of Contents
@@ -43,9 +43,13 @@
    - Code snippets for real-time testing of the model on new text samples.
 
 
-## Requirements
+## Pre-requisites
 
 - Python 3.11.7
-- Libraries (install using `pip install -r requirements.txt` or `conda env create -f environment.yml`).
+- Libraries
+   - create a virtual environment using `python -m venv classifytext_dl_env`
+   - activate the virtual environment using `classifytext_dl_env\Scripts\activate`
+   - install the libraries using `pip install -r requirements.txt`
+
 
 __Note: Neural networks are stochastic algorithms, meaning that the same algorithm on the same data can train a different model with different skill each time the code is run. This is a feature, not a bug.__
